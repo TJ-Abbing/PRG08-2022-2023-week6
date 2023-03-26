@@ -1,0 +1,75 @@
+{
+  "root": {
+    "attribute": "odor",
+    "predicateName": "==",
+    "pivot": "n",
+    "match": {
+      "attribute": "spore-print-color",
+      "predicateName": "==",
+      "pivot": "r",
+      "match": { "category": "p" },
+      "notMatch": {
+        "attribute": "stalk-surface-below-ring",
+        "predicateName": "==",
+        "pivot": "y",
+        "match": {
+          "attribute": "gill-size",
+          "predicateName": "==",
+          "pivot": "n",
+          "match": { "category": "p" },
+          "notMatch": { "category": "e" },
+          "matchedCount": 32,
+          "notMatchedCount": 10
+        },
+        "notMatch": {
+          "attribute": "cap-surface",
+          "predicateName": "==",
+          "pivot": "g",
+          "match": { "category": "p" },
+          "notMatch": { "category": "e" },
+          "matchedCount": 4,
+          "notMatchedCount": 2720
+        },
+        "matchedCount": 42,
+        "notMatchedCount": 2724
+      },
+      "matchedCount": 64,
+      "notMatchedCount": 2766
+    },
+    "notMatch": {
+      "attribute": "bruises",
+      "predicateName": "==",
+      "pivot": "t",
+      "match": {
+        "attribute": "stalk-root",
+        "predicateName": "==",
+        "pivot": "c",
+        "match": { "category": "e" },
+        "notMatch": {
+          "attribute": "stalk-root",
+          "predicateName": "==",
+          "pivot": "r",
+          "match": { "category": "e" },
+          "notMatch": {
+            "attribute": "gill-spacing",
+            "predicateName": "==",
+            "pivot": "c",
+            "match": { "category": "p" },
+            "notMatch": { "category": "e" },
+            "matchedCount": 442,
+            "notMatchedCount": 79
+          },
+          "matchedCount": 155,
+          "notMatchedCount": 521
+        },
+        "matchedCount": 404,
+        "notMatchedCount": 676
+      },
+      "notMatch": { "category": "p" },
+      "matchedCount": 1080,
+      "notMatchedCount": 2589
+    },
+    "matchedCount": 2830,
+    "notMatchedCount": 3669
+  }
+}

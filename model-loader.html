@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="modelLoader.js" type="module"></script>
+  </head>
+  <body>
+    <h2 id="personal-prediction"></h2>
+    <h3 id="prediction-result"></h3>
+    <div>
+      <a href="index.html">Go back</a>
+    </div>
+    <label for="poisonous">Will the mushroom be poisonous or edible?</label>
+    <p>Poisonous = p</p>
+    <p>Edible = e</p>
+    <input type="text" id="poisonous" placeholder="e.g. p or e" />
+    <br />
+    <br />
+    <button id="submit-button">Submit</button>
+    <div id="view"></div>
+  </body>
+</html>
